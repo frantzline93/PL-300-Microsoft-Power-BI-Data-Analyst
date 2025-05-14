@@ -40,11 +40,10 @@ This task teaches you how to connect to a SQL Server database and import tables,
 
      ![SQL Server Get Data icon](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image11.png)
 
-1. In the **SQL Server Database** window, in the **Server** box, enter **localhost** and leave **Database** blank, then select **OK**.
+1. In the **SQL Server Database** window, in the **Server** box, enter **srv-cesi-sql.database.windows.net** and leave **Database** blank, then select **OK**.
 
-    > ***Note**: In this lab, you’ll connect to the SQL Server database by using **localhost** because gateway data sources can't resolve **localhost**. This isn’t a recommended practice when creating your own solutions.*
 
-1. If prompted for credentials, select **Windows > Use my current credentials**, and then **Connect**.
+1. If prompted for credentials, select **Base de données > set User : cesi and password : mqse2025@**, and then **Connect**.
 
 1. Select **OK** if you receive a warning that an encrypted connection cannot be established.
 
